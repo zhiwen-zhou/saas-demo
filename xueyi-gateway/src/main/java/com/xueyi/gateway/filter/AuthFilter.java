@@ -1,14 +1,13 @@
 package com.xueyi.gateway.filter;
 
-import com.xueyi.common.core.constant.CacheConstants;
-import com.xueyi.common.core.constant.SecurityConstants;
-import com.xueyi.common.core.constant.TokenConstants;
-import com.xueyi.common.core.constant.HttpConstants;
+import com.xueyi.common.core.constant.*;
 import com.xueyi.common.core.utils.JwtUtils;
 import com.xueyi.common.core.utils.ServletUtils;
 import com.xueyi.common.core.utils.StringUtils;
 import com.xueyi.common.redis.service.RedisService;
 import com.xueyi.gateway.config.properties.IgnoreWhiteProperties;
+import com.xueyi.gateway.feign.AuthFeignManager;
+import com.xueyi.gateway.service.UnifiedLogService;
 import io.jsonwebtoken.Claims;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,10 +15,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
+
+import javax.annotation.Resource;
 
 /**
  * 网关鉴权
@@ -37,12 +40,28 @@ public class AuthFilter implements GlobalFilter, Ordered {
     @Autowired
     private RedisService redisService;
 
+    @Autowired
+    private UnifiedLogService unifiedLogService;
+
+    @Resource
+    private AuthFeignManager authFeignManager;
+
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpRequest request = exchange.getRequest();
         ServerHttpRequest.Builder mutate = request.mutate();
-
         String url = request.getURI().getPath();
+        // 网关日志记录
+        unifiedLogService.recordLog(request);
+        String thirdPartyToken = request.getHeaders().getFirst(Constants.THIRDPARTY_TOKEN);
+        String tag = request.getHeaders().getFirst(Constants.THIRDPARTY_TAG);
+        if (StringUtils.isNotEmpty(thirdPartyToken) && StringUtils.isNotEmpty(tag)) {
+            //调用鉴权服务查询是否满足
+            boolean flag = authFeignManager.verifyToken(tag, thirdPartyToken).getData().equals("") ? Boolean.TRUE : Boolean.FALSE;
+            if (flag) {
+                return chain.filter(exchange);
+            }
+        }
         // 跳过不需要验证的路径
         if (StringUtils.matches(url, ignoreWhite.getWhites())) {
             return chain.filter(exchange);

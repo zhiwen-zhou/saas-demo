@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xueyi.iml" filepath="$PROJECT_DIR$/xueyi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-api/xueyi-api.iml" filepath="$PROJECT_DIR$/xueyi-api/xueyi-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-api/xueyi-api-system/xueyi-api-system.iml" filepath="$PROJECT_DIR$/xueyi-api/xueyi-api-system/xueyi-api-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-api/xueyi-api-tenant/xueyi-api-tenant.iml" filepath="$PROJECT_DIR$/xueyi-api/xueyi-api-tenant/xueyi-api-tenant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-auth/xueyi-auth.iml" filepath="$PROJECT_DIR$/xueyi-auth/xueyi-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-core/xueyi-common-core.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-core/xueyi-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-datascope/xueyi-common-datascope.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-datascope/xueyi-common-datascope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-datasource/xueyi-common-datasource.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-datasource/xueyi-common-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-log/xueyi-common-log.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-log/xueyi-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-message/xueyi-common-message.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-message/xueyi-common-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-redis/xueyi-common-redis.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-redis/xueyi-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-security/xueyi-common-security.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-security/xueyi-common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-socket/xueyi-common-socket.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-socket/xueyi-common-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-common/xueyi-common-swagger/xueyi-common-swagger.iml" filepath="$PROJECT_DIR$/xueyi-common/xueyi-common-swagger/xueyi-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-gateway/xueyi-gateway.iml" filepath="$PROJECT_DIR$/xueyi-gateway/xueyi-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-modules.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-file/xueyi-modules-file.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-file/xueyi-modules-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-gen/xueyi-modules-gen.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-gen/xueyi-modules-gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-job/xueyi-modules-job.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-job/xueyi-modules-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-system/xueyi-modules-system.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-system/xueyi-modules-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-modules/xueyi-tenant/xueyi-modules-tenant.iml" filepath="$PROJECT_DIR$/xueyi-modules/xueyi-tenant/xueyi-modules-tenant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-visual/xueyi-visual.iml" filepath="$PROJECT_DIR$/xueyi-visual/xueyi-visual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xueyi-visual/xueyi-monitor/xueyi-visual-monitor.iml" filepath="$PROJECT_DIR$/xueyi-visual/xueyi-monitor/xueyi-visual-monitor.iml" />
+    </modules>
+  </component>
+</project>

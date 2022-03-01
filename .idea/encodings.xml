@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-api/xueyi-api-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-api/xueyi-api-tenant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-datascope" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-common/xueyi-common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules/xueyi-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules/xueyi-gen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules/xueyi-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules/xueyi-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-modules/xueyi-tenant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-visual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xueyi-visual/xueyi-monitor" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xueyi-api-system" />
+        <module name="xueyi-api-tenant" />
+        <module name="xueyi-auth" />
+        <module name="xueyi-common-core" />
+        <module name="xueyi-common-datascope" />
+        <module name="xueyi-common-datasource" />
+        <module name="xueyi-common-log" />
+        <module name="xueyi-common-message" />
+        <module name="xueyi-common-redis" />
+        <module name="xueyi-common-security" />
+        <module name="xueyi-common-socket" />
+        <module name="xueyi-common-swagger" />
+        <module name="xueyi-gateway" />
+        <module name="xueyi-modules-file" />
+        <module name="xueyi-modules-gen" />
+        <module name="xueyi-modules-job" />
+        <module name="xueyi-modules-system" />
+        <module name="xueyi-modules-tenant" />
+        <module name="xueyi-visual-monitor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xueyi" target="1.8" />
+      <module name="xueyi-api" target="1.8" />
+      <module name="xueyi-api-system" target="1.8" />
+      <module name="xueyi-api-tenant" target="1.8" />
+      <module name="xueyi-auth" target="1.8" />
+      <module name="xueyi-common" target="1.8" />
+      <module name="xueyi-common-core" target="1.8" />
+      <module name="xueyi-common-datascope" target="1.8" />
+      <module name="xueyi-common-datasource" target="1.8" />
+      <module name="xueyi-common-log" target="1.8" />
+      <module name="xueyi-common-message" target="1.8" />
+      <module name="xueyi-common-redis" target="1.8" />
+      <module name="xueyi-common-security" target="1.8" />
+      <module name="xueyi-common-socket" target="1.8" />
+      <module name="xueyi-common-swagger" target="1.8" />
+      <module name="xueyi-gateway" target="1.8" />
+      <module name="xueyi-modules" target="1.8" />
+      <module name="xueyi-modules-file" target="1.8" />
+      <module name="xueyi-modules-gen" target="1.8" />
+      <module name="xueyi-modules-job" target="1.8" />
+      <module name="xueyi-modules-system" target="1.8" />
+      <module name="xueyi-modules-tenant" target="1.8" />
+      <module name="xueyi-visual" target="1.8" />
+      <module name="xueyi-visual-monitor" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

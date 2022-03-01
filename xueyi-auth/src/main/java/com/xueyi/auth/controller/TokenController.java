@@ -12,10 +12,7 @@ import com.xueyi.common.security.service.TokenService;
 import com.xueyi.common.security.utils.SecurityUtils;
 import com.xueyi.system.api.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -25,6 +22,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author xueyi
  */
 @RestController
+@RequestMapping("/token")
 public class TokenController {
 
     @Autowired
@@ -35,6 +33,7 @@ public class TokenController {
 
     @PostMapping("login")
     public R<?> login(@RequestBody LoginBody form) {
+        System.out.println("sbbb");
         // 用户登录
         LoginUser userInfo = sysLoginService.login(form.getEnterpriseName(), form.getUserName(), form.getPassword());
         // 获取登录token
@@ -69,5 +68,10 @@ public class TokenController {
         // 用户注册
         sysLoginService.register(registerBody);
         return R.ok();
+    }
+
+    @GetMapping("test")
+    public R<?> test(@RequestParam("name") String name, @RequestParam("job") String job) {
+        return R.ok(name);
     }
 }

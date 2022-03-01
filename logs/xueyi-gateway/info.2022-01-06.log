@@ -1,0 +1,842 @@
+10:15:44.394 [nacos-grpc-client-executor-45] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]receive server push request,request=ClientDetectionRequest,requestId=106
+10:15:44.408 [nacos-grpc-client-executor-56] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]receive server push request,request=ClientDetectionRequest,requestId=108
+10:15:44.407 [nacos-grpc-client-executor-44] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0]receive server push request,request=ClientDetectionRequest,requestId=107
+10:15:44.459 [nacos-grpc-client-executor-45] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]ack server push request,request=ClientDetectionRequest,requestId=106
+10:15:44.402 [nacos-grpc-client-executor-55] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0]receive server push request,request=ClientDetectionRequest,requestId=105
+10:15:44.463 [nacos-grpc-client-executor-55] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0]ack server push request,request=ClientDetectionRequest,requestId=105
+10:15:44.459 [nacos-grpc-client-executor-56] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]ack server push request,request=ClientDetectionRequest,requestId=108
+10:15:44.459 [nacos-grpc-client-executor-44] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0]ack server push request,request=ClientDetectionRequest,requestId=107
+10:15:44.465 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]Server healthy check fail,currentConnection=1641384059139_192.168.6.1_59209
+10:15:44.465 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:15:44.466 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0]Server healthy check fail,currentConnection=1641384059140_192.168.6.1_59210
+10:15:44.466 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:15:44.466 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0]Server healthy check fail,currentConnection=1641383837673_192.168.6.1_58788
+10:15:44.467 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:15:44.467 [nacos-grpc-client-executor-44] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641383837673_192.168.6.1_58788]Ignore complete event,isRunning:false,isAbandon=false
+10:15:44.468 [nacos-grpc-client-executor-56] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641384059139_192.168.6.1_59209]Ignore complete event,isRunning:false,isAbandon=false
+10:15:44.509 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]Server healthy check fail,currentConnection=1641383842431_192.168.6.1_58797
+10:15:44.509 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:15:44.624 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3] success to connect a server  [192.168.6.130:8848],connectionId=1641435345033_192.168.6.1_59195
+10:15:44.624 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641384059139_192.168.6.1_59209
+10:15:44.626 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641435345034_192.168.6.1_59196
+10:15:44.626 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641383837673_192.168.6.1_58788
+10:15:44.642 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]Notify disconnected event to listeners
+10:15:44.642 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0]Notify disconnected event to listeners
+10:15:44.642 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] DisConnected,clear listen context...
+10:15:44.643 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]Notify connected event to listeners.
+10:15:44.643 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+10:15:44.643 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0]Notify connected event to listeners.
+10:15:44.643 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] Connected,notify listen context...
+10:15:44.649 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641435345060_192.168.6.1_59197
+10:15:44.649 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641384059140_192.168.6.1_59210
+10:15:44.677 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3] Server check success,currentServer is192.168.6.130:8848 
+10:15:44.677 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [e9bf4b73-7d1d-4e2b-a591-100dd99528ce_config-0] Server check success,currentServer is192.168.6.130:8848 
+10:15:44.709 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0]Notify disconnected event to listeners
+10:15:44.709 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] DisConnected,clear listen context...
+10:15:44.709 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0]Notify connected event to listeners.
+10:15:44.709 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] Connected,notify listen context...
+10:15:44.771 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [43fe3dc3-060e-4c98-b92c-5fd48da0ad98_config-0] Server check success,currentServer is192.168.6.130:8848 
+10:15:44.779 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641435345190_192.168.6.1_59198
+10:15:44.779 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641383842431_192.168.6.1_58797
+10:15:44.849 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:15:44.849 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]Notify disconnected event to listeners
+10:15:44.850 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] DisConnected,clear listen context...
+10:15:44.852 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]Notify connected event to listeners.
+10:15:44.852 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] Connected,notify listen context...
+10:15:44.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641435345391_192.168.6.1_59200
+10:15:44.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641435345190_192.168.6.1_59198
+10:15:44.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]Notify disconnected event to listeners
+10:15:44.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] DisConnected,clear listen context...
+10:15:44.979 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0]Notify connected event to listeners.
+10:15:44.980 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [81c5417d-7f9f-4986-8f68-f00998697bb2_config-0] Connected,notify listen context...
+10:15:47.382 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+10:15:47.385 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+10:15:47.841 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+10:15:47.859 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [deregisterService,136] - [DEREGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 deregistering service xueyi-gateway with instance: Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+10:15:47.893 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+10:15:47.894 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,256] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+10:15:47.894 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,140] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+10:15:47.894 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,142] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+10:15:47.895 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,258] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+10:15:47.895 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,176] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+10:15:47.895 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,130] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+10:15:47.977 [nacos-grpc-client-executor-67] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]receive server push request,request=NotifySubscriberRequest,requestId=109
+10:15:47.978 [nacos-grpc-client-executor-67] INFO  c.a.n.client.naming - [isChangedServiceInfo,241] - removed ips(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+10:15:47.978 [nacos-grpc-client-executor-67] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+10:15:47.982 [nacos-grpc-client-executor-67] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [29da8a7a-c64b-4e1d-bc5a-7f340d1f31c3]ack server push request,request=NotifySubscriberRequest,requestId=109
+10:15:48.197 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,132] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+10:15:48.197 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,188] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+10:15:48.197 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,193] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+10:15:48.197 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,519] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+10:15:48.197 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,162] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+10:15:48.198 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,164] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+10:15:48.199 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialWatcher - [stop,105] - [null] CredentialWatcher is stopped
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialService - [free,99] - [null] CredentialService is freed
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,523] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,461] - Shutdown rpc client ,set status to shutdown
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,463] - Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2fb262e7[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,465] - Close current connection 1641435345033_192.168.6.1_59195
+10:15:48.200 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,83] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@41999820[Running, pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 68]
+10:15:48.201 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,251] - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@4f6a22d7[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 68]
+10:15:48.201 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,182] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+10:41:16.689 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+10:41:18.382 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+10:41:18.385 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 70f84d62-d916-44e0-beb4-00570c3e713f_config-0
+10:41:18.422 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 24 ms to scan 1 urls, producing 3 keys and 6 values 
+10:41:18.449 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
+10:41:18.461 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+10:41:18.683 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 220 ms to scan 211 urls, producing 0 keys and 0 values 
+10:41:18.693 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+10:41:18.707 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+10:41:18.718 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+10:41:18.915 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 194 ms to scan 211 urls, producing 0 keys and 0 values 
+10:41:18.917 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+10:41:18.918 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1048842522
+10:41:18.918 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1260012504
+10:41:18.919 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+10:41:18.920 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+10:41:18.927 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+10:41:20.208 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641436880528_192.168.6.1_57773
+10:41:20.208 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Notify connected event to listeners.
+10:41:20.208 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] Connected,notify listen context...
+10:41:20.208 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:41:20.209 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+10:41:20.247 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,56] - limitTime:5.0
+10:41:20.297 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,53] - isMultiInstance:false
+10:41:20.327 [main] INFO  c.x.g.XueYiGatewayApplication - [logStartupProfileInfo,663] - The following profiles are active: dev
+10:41:22.348 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,34] - gateway route init...
+10:41:22.349 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1048842522
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1260012504
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+10:41:22.350 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+10:41:22.463 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641436882875_192.168.6.1_57782
+10:41:22.463 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:41:22.463 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Notify connected event to listeners.
+10:41:22.463 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+10:41:22.463 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] Connected,notify listen context...
+10:41:22.469 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,42] - 获取网关当前配置:[{
+    "id": "xueyi-auth",
+    "order": 2,
+    "predicates": [{
+        "args": {
+            "pattern": "/token/**"
+        },
+        "name": "Path"
+    }],
+    "uri": "lb://xueyi-auth"
+}]
+10:41:22.481 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,45] - update route : RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+10:41:22.481 [main] INFO  c.x.g.s.i.DynamicRouteServiceImpl - [add,103] - gateway add route RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+10:41:22.572 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+10:41:22.579 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+10:41:25.433 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+10:41:25.550 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,63] - initializer namespace from System Property : null
+10:41:25.550 [main] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
+10:41:25.551 [main] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
+10:41:25.567 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of ecdaa75a-3caf-44f3-981d-0a6ba0424907
+10:41:25.568 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]RpcClient init label, labels={module=naming, source=sdk}
+10:41:25.569 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+10:41:25.570 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+10:41:25.571 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+10:41:25.571 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+10:41:25.682 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641436886096_192.168.6.1_57790
+10:41:25.682 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Notify connected event to listeners.
+10:41:25.682 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:41:25.682 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+10:41:25.682 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+10:41:27.180 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+10:41:27.361 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] sentinel-xueyi-gateway+DEFAULT_GROUP
+10:41:27.361 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=sentinel-xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+10:41:27.361 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 4a0a343a-49cc-4915-affb-0bb9789e2001_config-0
+10:41:27.361 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+10:41:27.362 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1048842522
+10:41:27.362 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1260012504
+10:41:27.362 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+10:41:27.362 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+10:41:27.362 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+10:41:27.572 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641436887886_192.168.6.1_57796
+10:41:27.572 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:41:27.572 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Notify connected event to listeners.
+10:41:27.572 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+10:41:27.572 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] Connected,notify listen context...
+10:41:27.606 [main] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+10:41:27.608 [main] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+10:41:28.144 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]receive server push request,request=NotifySubscriberRequest,requestId=111
+10:41:28.144 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+10:41:28.144 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+10:41:28.147 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]ack server push request,request=NotifySubscriberRequest,requestId=111
+10:41:30.681 [main] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 registering service xueyi-gateway with instance Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+10:41:30.687 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP xueyi-gateway 11.9.0.10:8080 register finished
+10:41:30.705 [main] INFO  c.x.g.XueYiGatewayApplication - [logStarted,61] - Started XueYiGatewayApplication in 15.733 seconds (JVM running for 17.136)
+10:41:30.708 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+10:41:30.708 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+10:41:30.709 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+10:41:30.709 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway.properties, group=DEFAULT_GROUP, cnt=1
+10:41:30.709 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway-dev.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+10:41:30.710 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway-dev.properties, group=DEFAULT_GROUP, cnt=1
+10:41:31.262 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]receive server push request,request=NotifySubscriberRequest,requestId=112
+10:41:31.265 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+10:41:31.265 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+10:41:31.267 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]ack server push request,request=NotifySubscriberRequest,requestId=112
+10:41:34.609 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+10:41:34.609 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+10:43:35.300 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Server healthy check fail,currentConnection=1641436886096_192.168.6.1_57790
+10:52:41.322 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:44:14.345 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Server healthy check fail,currentConnection=1641436887886_192.168.6.1_57796
+10:43:35.310 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Server healthy check fail,currentConnection=1641436880528_192.168.6.1_57773
+10:52:41.325 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:52:41.325 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:43:35.310 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Server healthy check fail,currentConnection=1641436882875_192.168.6.1_57782
+10:52:41.326 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+10:52:41.332 [nacos-grpc-client-executor-34] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]receive server push request,request=ClientDetectionRequest,requestId=113
+10:52:41.333 [nacos-grpc-client-executor-34] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]ack server push request,request=ClientDetectionRequest,requestId=113
+10:52:41.333 [nacos-grpc-client-executor-27] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]receive server push request,request=ClientDetectionRequest,requestId=115
+10:52:41.334 [nacos-grpc-client-executor-27] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]ack server push request,request=ClientDetectionRequest,requestId=115
+10:52:41.334 [nacos-grpc-client-executor-34] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641436880528_192.168.6.1_57773]Ignore complete event,isRunning:false,isAbandon=false
+10:52:41.335 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]receive server push request,request=ClientDetectionRequest,requestId=114
+10:52:41.336 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]ack server push request,request=ClientDetectionRequest,requestId=114
+10:52:41.336 [nacos-grpc-client-executor-27] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641436887886_192.168.6.1_57796]Ignore complete event,isRunning:false,isAbandon=false
+10:52:41.336 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641436882875_192.168.6.1_57782]Ignore complete event,isRunning:false,isAbandon=false
+10:52:41.399 [nacos-grpc-client-executor-32] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]receive server push request,request=ClientDetectionRequest,requestId=116
+10:52:41.399 [nacos-grpc-client-executor-32] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]ack server push request,request=ClientDetectionRequest,requestId=116
+10:52:41.400 [nacos-grpc-client-executor-32] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641436886096_192.168.6.1_57790]Ignore complete event,isRunning:false,isAbandon=false
+10:52:41.528 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907] success to connect a server  [192.168.6.130:8848],connectionId=1641437561874_192.168.6.1_65509
+10:52:41.528 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641436886096_192.168.6.1_57790
+10:52:41.530 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Notify disconnected event to listeners
+10:52:41.531 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ecdaa75a-3caf-44f3-981d-0a6ba0424907]Notify connected event to listeners.
+10:52:41.531 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641437561874_192.168.6.1_65508
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641436880528_192.168.6.1_57773
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Notify disconnected event to listeners
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] DisConnected,clear listen context...
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0]Notify connected event to listeners.
+10:52:41.533 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [70f84d62-d916-44e0-beb4-00570c3e713f_config-0] Connected,notify listen context...
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641437561951_192.168.6.1_65511
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641436887886_192.168.6.1_57796
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Notify disconnected event to listeners
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] DisConnected,clear listen context...
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0]Notify connected event to listeners.
+10:52:41.534 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [4a0a343a-49cc-4915-affb-0bb9789e2001_config-0] Connected,notify listen context...
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641437561953_192.168.6.1_65510
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641436882875_192.168.6.1_57782
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Notify disconnected event to listeners
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] DisConnected,clear listen context...
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0]Notify connected event to listeners.
+10:52:41.587 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [1355b68e-d193-41c8-bd5d-0486054dcb9a_config-0] Connected,notify listen context...
+10:52:42.428 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+10:52:42.428 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [deregisterService,136] - [DEREGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 deregistering service xueyi-gateway with instance: Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+10:52:42.431 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+10:52:42.432 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,256] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+10:52:42.432 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,140] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+10:52:42.432 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,142] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+10:52:42.432 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,258] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+10:52:42.432 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,176] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+10:52:42.433 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,130] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+10:52:42.737 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,132] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+10:52:42.737 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,188] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,193] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,519] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,162] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,164] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialWatcher - [stop,105] - [null] CredentialWatcher is stopped
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialService - [free,99] - [null] CredentialService is freed
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,523] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+10:52:42.738 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,461] - Shutdown rpc client ,set status to shutdown
+10:52:42.739 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,463] - Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3d7cf0fe[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+10:52:42.739 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,465] - Close current connection 1641437561874_192.168.6.1_65509
+10:52:42.741 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,83] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5d2b9a8a[Running, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 38]
+10:52:42.742 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,251] - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@aff74cc[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 40]
+10:52:42.742 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,182] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+11:05:04.522 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+11:05:06.127 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+11:05:06.130 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0
+11:05:06.168 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
+11:05:06.191 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
+11:05:06.203 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+11:05:06.415 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 210 ms to scan 211 urls, producing 0 keys and 0 values 
+11:05:06.424 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+11:05:06.436 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+11:05:06.446 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+11:05:06.634 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 186 ms to scan 211 urls, producing 0 keys and 0 values 
+11:05:06.637 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:05:06.637 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/603401608
+11:05:06.638 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1269819701
+11:05:06.638 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:05:06.639 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:05:06.645 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+11:05:07.845 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641438308177_192.168.6.1_57676
+11:05:07.846 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify connected event to listeners.
+11:05:07.846 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Connected,notify listen context...
+11:05:07.846 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:05:07.847 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+11:05:07.897 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,56] - limitTime:5.0
+11:05:07.908 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,53] - isMultiInstance:false
+11:05:07.928 [main] INFO  c.x.g.XueYiGatewayApplication - [logStartupProfileInfo,663] - The following profiles are active: dev
+11:05:09.613 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,34] - gateway route init...
+11:05:09.614 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 61ca9ce4-1bfa-4440-b289-e09851527262_config-0
+11:05:09.614 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:05:09.615 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/603401608
+11:05:09.615 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1269819701
+11:05:09.615 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:05:09.615 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:05:09.615 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+11:05:09.725 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641438310146_192.168.6.1_57683
+11:05:09.726 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:05:09.726 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify connected event to listeners.
+11:05:09.726 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+11:05:09.726 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Connected,notify listen context...
+11:05:09.744 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,42] - 获取网关当前配置:[{
+    "id": "xueyi-auth",
+    "order": 2,
+    "predicates": [{
+        "args": {
+            "pattern": "/token/**"
+        },
+        "name": "Path"
+    }],
+    "uri": "lb://xueyi-auth"
+}]
+11:05:09.772 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,45] - update route : RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+11:05:09.772 [main] INFO  c.x.g.s.i.DynamicRouteServiceImpl - [add,103] - gateway add route RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+11:05:09.840 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+11:05:09.846 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+11:05:12.576 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+11:05:12.670 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,63] - initializer namespace from System Property : null
+11:05:12.671 [main] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
+11:05:12.671 [main] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
+11:05:12.683 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of ba2edb5e-5709-41b3-a8a7-c5277b28110c
+11:05:12.683 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]RpcClient init label, labels={module=naming, source=sdk}
+11:05:12.685 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+11:05:12.685 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+11:05:12.686 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+11:05:12.686 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+11:05:12.797 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641438313217_192.168.6.1_57689
+11:05:12.797 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify connected event to listeners.
+11:05:12.797 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:05:12.797 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+11:05:12.799 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+11:05:14.243 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+11:05:14.414 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] sentinel-xueyi-gateway+DEFAULT_GROUP
+11:05:14.414 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=sentinel-xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/603401608
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1269819701
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+11:05:14.415 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+11:05:14.416 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+11:05:14.523 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641438314946_192.168.6.1_57691
+11:05:14.523 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+11:05:14.523 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify connected event to listeners.
+11:05:14.523 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+11:05:14.523 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Connected,notify listen context...
+11:05:14.557 [main] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+11:05:14.559 [main] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+11:05:15.079 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=NotifySubscriberRequest,requestId=117
+11:05:15.079 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+11:05:15.079 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+11:05:15.081 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=NotifySubscriberRequest,requestId=117
+11:05:17.575 [main] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 registering service xueyi-gateway with instance Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+11:05:17.581 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP xueyi-gateway 11.9.0.10:8080 register finished
+11:05:17.599 [main] INFO  c.x.g.XueYiGatewayApplication - [logStarted,61] - Started XueYiGatewayApplication in 14.693 seconds (JVM running for 15.966)
+11:05:17.602 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+11:05:17.602 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+11:05:17.603 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+11:05:17.603 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway.properties, group=DEFAULT_GROUP, cnt=1
+11:05:17.603 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway-dev.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+11:05:17.603 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway-dev.properties, group=DEFAULT_GROUP, cnt=1
+11:05:18.090 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=NotifySubscriberRequest,requestId=118
+11:05:18.093 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:05:18.093 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:05:18.095 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=NotifySubscriberRequest,requestId=118
+11:05:21.569 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:05:21.569 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:07:03.351 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Server healthy check fail,currentConnection=1641438313217_192.168.6.1_57689
+11:07:03.351 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Server healthy check fail,currentConnection=1641438308177_192.168.6.1_57676
+11:23:26.652 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:07:03.351 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Server healthy check fail,currentConnection=1641438314946_192.168.6.1_57691
+11:23:26.654 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:23:26.654 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:23:26.655 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Server healthy check fail,currentConnection=1641438310146_192.168.6.1_57683
+11:23:26.655 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:23:26.657 [nacos-grpc-client-executor-28] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=ClientDetectionRequest,requestId=122
+11:23:26.657 [nacos-grpc-client-executor-30] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]receive server push request,request=ClientDetectionRequest,requestId=123
+11:23:26.657 [nacos-grpc-client-executor-28] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=ClientDetectionRequest,requestId=122
+11:23:26.657 [nacos-grpc-client-executor-30] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]ack server push request,request=ClientDetectionRequest,requestId=123
+11:23:26.660 [nacos-grpc-client-executor-30] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641438308177_192.168.6.1_57676]Ignore complete event,isRunning:false,isAbandon=false
+11:23:26.662 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]receive server push request,request=ClientDetectionRequest,requestId=120
+11:23:26.663 [nacos-grpc-client-executor-28] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641438313217_192.168.6.1_57689]Ignore complete event,isRunning:false,isAbandon=false
+11:23:26.663 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]ack server push request,request=ClientDetectionRequest,requestId=120
+11:23:26.664 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641438314946_192.168.6.1_57691]Ignore complete event,isRunning:false,isAbandon=false
+11:23:26.664 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]receive server push request,request=ClientDetectionRequest,requestId=121
+11:23:26.664 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]ack server push request,request=ClientDetectionRequest,requestId=121
+11:23:26.665 [nacos-grpc-client-executor-26] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641438310146_192.168.6.1_57683]Ignore complete event,isRunning:false,isAbandon=false
+11:23:26.803 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641439407226_192.168.6.1_62663
+11:23:26.803 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641439407224_192.168.6.1_62664
+11:23:26.803 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641438308177_192.168.6.1_57676
+11:23:26.803 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641438310146_192.168.6.1_57683
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify disconnected event to listeners
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify disconnected event to listeners
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] DisConnected,clear listen context...
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] DisConnected,clear listen context...
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify connected event to listeners.
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify connected event to listeners.
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Connected,notify listen context...
+11:23:26.806 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Connected,notify listen context...
+11:23:26.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641439407232_192.168.6.1_62665
+11:23:26.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641438314946_192.168.6.1_57691
+11:23:26.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify disconnected event to listeners
+11:23:26.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] DisConnected,clear listen context...
+11:23:26.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify connected event to listeners.
+11:23:26.831 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Connected,notify listen context...
+11:23:26.832 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] success to connect a server  [192.168.6.130:8848],connectionId=1641439407257_192.168.6.1_62666
+11:23:26.832 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641438313217_192.168.6.1_57689
+11:23:26.832 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify disconnected event to listeners
+11:23:26.833 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify connected event to listeners.
+11:23:26.833 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+11:23:26.877 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Server check success,currentServer is192.168.6.130:8848 
+11:23:28.882 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [isChangedServiceInfo,241] - removed ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:23:28.882 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+11:23:29.656 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:23:29.660 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:23:30.251 [nacos-grpc-client-executor-37] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=NotifySubscriberRequest,requestId=124
+11:23:30.252 [nacos-grpc-client-executor-37] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=NotifySubscriberRequest,requestId=124
+11:23:32.888 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:23:32.889 [com.alibaba.nacos.client.naming.updater.0] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+11:44:09.164 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Server healthy check fail,currentConnection=1641439407257_192.168.6.1_62666
+11:44:09.164 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Server healthy check fail,currentConnection=1641439407232_192.168.6.1_62665
+11:44:09.164 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Server healthy check fail,currentConnection=1641439407226_192.168.6.1_62663
+11:44:09.235 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:44:09.232 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Server healthy check fail,currentConnection=1641439407224_192.168.6.1_62664
+11:44:09.235 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:44:09.235 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:44:09.235 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:44:21.172 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] success to connect a server  [192.168.6.130:8848],connectionId=1641440656781_192.168.6.1_64563
+11:44:28.935 [nacos-grpc-client-executor-281] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]receive server push request,request=ClientDetectionRequest,requestId=125
+11:44:28.939 [nacos-grpc-client-executor-281] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]ack server push request,request=ClientDetectionRequest,requestId=125
+11:44:28.933 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641439407257_192.168.6.1_62666
+11:44:28.935 [nacos-grpc-client-executor-279] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]receive server push request,request=ClientDetectionRequest,requestId=128
+11:44:28.941 [nacos-grpc-client-executor-281] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641439407226_192.168.6.1_62663]Ignore complete event,isRunning:false,isAbandon=false
+11:44:28.941 [nacos-grpc-client-executor-276] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]receive server push request,request=ClientDetectionRequest,requestId=127
+11:44:28.942 [nacos-grpc-client-executor-276] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]ack server push request,request=ClientDetectionRequest,requestId=127
+11:44:28.942 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify disconnected event to listeners
+11:44:28.943 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify connected event to listeners.
+11:44:28.943 [nacos-grpc-client-executor-276] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641439407224_192.168.6.1_62664]Ignore complete event,isRunning:false,isAbandon=false
+11:44:28.943 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+11:44:28.939 [nacos-grpc-client-executor-286] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=ClientDetectionRequest,requestId=126
+11:44:28.942 [nacos-grpc-client-executor-279] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]ack server push request,request=ClientDetectionRequest,requestId=128
+11:44:28.949 [nacos-grpc-client-executor-286] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=ClientDetectionRequest,requestId=126
+11:45:28.829 [nacos-grpc-client-executor-279] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641439407232_192.168.6.1_62665]Ignore complete event,isRunning:false,isAbandon=false
+11:45:28.830 [nacos-grpc-client-executor-287] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=ClientDetectionRequest,requestId=129
+11:45:28.832 [nacos-grpc-client-executor-287] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=ClientDetectionRequest,requestId=129
+11:45:28.835 [nacos-grpc-client-executor-286] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641439407257_192.168.6.1_62666]Ignore complete event,isRunning:true,isAbandon=true
+11:45:28.809 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:45:28.840 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:45:28.842 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Server healthy check fail,currentConnection=1641440656781_192.168.6.1_64563
+11:45:42.717 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:45:44.402 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:45:42.718 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:45:44.406 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:45:44.407 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:45:50.811 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:45:50.811 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641440744947_192.168.6.1_64697
+11:45:50.814 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:45:50.815 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641439407232_192.168.6.1_62665
+11:45:57.626 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:45:57.626 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify disconnected event to listeners
+11:45:57.627 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] DisConnected,clear listen context...
+11:45:57.627 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:45:57.627 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify connected event to listeners.
+11:45:57.627 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Connected,notify listen context...
+11:46:22.979 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:46:22.980 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:46:23.009 [nacos-grpc-client-executor-283] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]receive server push request,request=ClientDetectionRequest,requestId=130
+11:46:23.010 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Server healthy check fail,currentConnection=1641440744947_192.168.6.1_64697
+11:46:23.010 [nacos-grpc-client-executor-283] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]ack server push request,request=ClientDetectionRequest,requestId=130
+11:46:23.010 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:46:23.021 [nacos-grpc-client-executor-283] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641440744947_192.168.6.1_64697]Ignore complete event,isRunning:false,isAbandon=false
+11:46:23.320 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] success to connect a server  [192.168.6.130:8848],connectionId=1641440783561_192.168.6.1_64765
+11:46:23.320 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641440783559_192.168.6.1_64764
+11:46:23.320 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641440783561_192.168.6.1_64766
+11:46:23.321 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440656781_192.168.6.1_64563
+11:46:23.321 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641439407224_192.168.6.1_62664
+11:46:23.322 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641439407226_192.168.6.1_62663
+11:46:35.005 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify disconnected event to listeners
+11:46:35.005 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify connected event to listeners.
+11:46:35.004 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:46:35.005 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+11:46:35.004 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:46:35.005 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify disconnected event to listeners
+11:46:35.007 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] DisConnected,clear listen context...
+11:46:35.005 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify disconnected event to listeners
+11:46:35.007 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify connected event to listeners.
+11:46:35.007 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:46:36.615 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641440783590_192.168.6.1_64767
+11:46:36.615 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Connected,notify listen context...
+11:46:36.615 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] DisConnected,clear listen context...
+11:46:36.615 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440744947_192.168.6.1_64697
+11:46:36.627 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify connected event to listeners.
+11:46:36.628 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Connected,notify listen context...
+11:46:36.629 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify disconnected event to listeners
+11:46:36.632 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] DisConnected,clear listen context...
+11:46:36.635 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify connected event to listeners.
+11:46:36.637 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Server check success,currentServer is192.168.6.130:8848 
+11:46:36.638 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Connected,notify listen context...
+11:47:09.392 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:47:11.966 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:47:11.969 [nacos-grpc-client-executor-290] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]receive server push request,request=ClientDetectionRequest,requestId=133
+11:47:11.970 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Server healthy check fail,currentConnection=1641440783590_192.168.6.1_64767
+11:47:11.971 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:47:11.971 [nacos-grpc-client-executor-290] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]ack server push request,request=ClientDetectionRequest,requestId=133
+11:47:11.971 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Server healthy check fail,currentConnection=1641440783559_192.168.6.1_64764
+11:47:16.390 [nacos-grpc-client-executor-290] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641440783590_192.168.6.1_64767]Ignore complete event,isRunning:false,isAbandon=false
+11:47:16.390 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:47:16.390 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Server healthy check fail,currentConnection=1641440783561_192.168.6.1_64766
+11:47:16.390 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:47:11.970 [nacos-grpc-client-executor-288] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]receive server push request,request=ClientDetectionRequest,requestId=131
+11:47:16.390 [nacos-grpc-client-executor-285] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]receive server push request,request=ClientDetectionRequest,requestId=134
+11:47:16.391 [nacos-grpc-client-executor-285] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]ack server push request,request=ClientDetectionRequest,requestId=134
+11:47:16.391 [nacos-grpc-client-executor-285] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641440783559_192.168.6.1_64764]Ignore complete event,isRunning:false,isAbandon=false
+11:47:14.361 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+11:47:16.391 [nacos-grpc-client-executor-288] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]ack server push request,request=ClientDetectionRequest,requestId=131
+11:47:16.390 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:47:18.276 [nacos-grpc-client-executor-297] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=ClientDetectionRequest,requestId=132
+11:47:20.726 [nacos-grpc-client-executor-297] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=ClientDetectionRequest,requestId=132
+11:47:24.414 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:47:24.417 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:47:24.417 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:47:29.351 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:47:29.351 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:47:32.936 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:47:34.950 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:47:40.853 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:49:12.140 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:49:12.140 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:49:12.142 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:49:12.148 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:49:12.148 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:49:12.159 [nacos-grpc-client-executor-297] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641440783561_192.168.6.1_64765]Ignore complete event,isRunning:false,isAbandon=false
+11:49:24.422 [nacos-grpc-client-executor-288] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641440783561_192.168.6.1_64766]Ignore complete event,isRunning:false,isAbandon=false
+11:49:24.402 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:49:24.404 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:49:24.423 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:49:30.397 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:49:30.414 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:49:30.420 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:52:12.970 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+11:52:12.970 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+11:52:12.993 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] fail to connect server,after trying 3 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:52:12.995 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 2 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+11:52:12.995 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 3 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:33:39.904 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:33:39.933 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:33:39.932 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] fail to connect server,after trying 3 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:34:28.910 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:34:28.914 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 3 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:34:28.914 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:34:36.560 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:34:36.561 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:34:36.566 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] fail to connect server,after trying 4 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:34:40.784 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:34:40.784 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:34:40.784 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 4 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:34:40.813 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] fail to connect server,after trying 4 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:34:48.799 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641447281383_192.168.6.1_61125
+13:34:48.799 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:34:48.801 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440783590_192.168.6.1_64767
+13:34:48.801 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:34:48.802 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify disconnected event to listeners
+13:34:48.828 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] DisConnected,clear listen context...
+13:34:48.828 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0]Notify connected event to listeners.
+13:34:48.828 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Connected,notify listen context...
+13:34:48.830 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Server check success,currentServer is192.168.6.130:8848 
+13:35:07.402 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:35:07.402 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:35:07.402 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641447281399_192.168.6.1_61126
+13:35:07.402 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440783561_192.168.6.1_64766
+13:35:07.435 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] fail to connect server,after trying 5 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:35:07.435 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] fail to connect server,after trying 5 times, last try server is {serverIp='192.168.6.130', server main port=8848},error=unknown
+13:35:07.435 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify disconnected event to listeners
+13:35:07.437 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] DisConnected,clear listen context...
+13:35:07.438 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0]Notify connected event to listeners.
+13:35:07.448 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [65d2490e-22ec-4b8d-87da-363d57c8f26a_config-0] Connected,notify listen context...
+13:35:07.465 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [62c50029-163d-44c6-9799-e0cdf31ddf7f_config-0] Server check success,currentServer is192.168.6.130:8848 
+13:35:09.522 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] success to connect a server  [192.168.6.130:8848],connectionId=1641447308974_192.168.6.1_61169
+13:35:10.509 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:35:09.588 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440783561_192.168.6.1_64765
+13:35:10.509 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] success to connect a server  [192.168.6.130:8848],connectionId=1641447308973_192.168.6.1_61168
+13:35:10.510 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:35:10.510 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Abandon prev connection ,server is  192.168.6.130:8848, connectionId is 1641440783559_192.168.6.1_64764
+13:35:10.588 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify disconnected event to listeners
+13:35:10.514 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify disconnected event to listeners
+13:35:10.589 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onDisConnect,688] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] DisConnected,clear listen context...
+13:35:10.589 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]Notify connected event to listeners.
+13:35:10.589 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0]Notify connected event to listeners.
+13:35:10.589 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+13:35:10.589 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Connected,notify listen context...
+13:35:11.685 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c] Server check success,currentServer is192.168.6.130:8848 
+13:35:11.685 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [61ca9ce4-1bfa-4440-b289-e09851527262_config-0] Server check success,currentServer is192.168.6.130:8848 
+13:35:14.893 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForInstance,72] - Redo instance operation REGISTER for DEFAULT_GROUP@@xueyi-gateway
+13:35:14.897 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  c.a.n.client.naming - [redoForSubscribe,110] - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xueyi-gateway#DEFAULT
+13:35:15.409 [nacos-grpc-client-executor-314] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]receive server push request,request=NotifySubscriberRequest,requestId=135
+13:35:15.409 [nacos-grpc-client-executor-314] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [ba2edb5e-5709-41b3-a8a7-c5277b28110c]ack server push request,request=NotifySubscriberRequest,requestId=135
+13:38:16.529 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+13:38:16.529 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [deregisterService,136] - [DEREGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 deregistering service xueyi-gateway with instance: Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+13:38:16.532 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+13:38:16.533 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,256] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+13:38:16.533 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,140] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+13:38:16.534 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,142] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+13:38:16.534 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,258] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+13:38:16.534 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,176] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+13:38:16.534 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,130] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+13:38:16.840 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,132] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+13:38:16.840 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,188] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+13:38:16.840 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,193] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+13:38:16.840 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,519] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,162] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,164] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialWatcher - [stop,105] - [null] CredentialWatcher is stopped
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialService - [free,99] - [null] CredentialService is freed
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,523] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,461] - Shutdown rpc client ,set status to shutdown
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,463] - Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3711bbd0[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+13:38:16.841 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,465] - Close current connection 1641447308974_192.168.6.1_61169
+13:38:16.842 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,83] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1a24778e[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 352]
+13:38:16.842 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,251] - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@4deb860f[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 532]
+13:38:16.842 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,182] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+13:38:40.604 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+13:38:42.211 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+13:38:42.214 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0
+13:38:42.250 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 23 ms to scan 1 urls, producing 3 keys and 6 values 
+13:38:42.274 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 12 ms to scan 1 urls, producing 4 keys and 9 values 
+13:38:42.285 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+13:38:42.501 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 213 ms to scan 211 urls, producing 0 keys and 0 values 
+13:38:42.510 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+13:38:42.520 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+13:38:42.531 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+13:38:42.722 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 189 ms to scan 211 urls, producing 0 keys and 0 values 
+13:38:42.725 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+13:38:42.726 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1779219567
+13:38:42.727 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1729171313
+13:38:42.728 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+13:38:42.729 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+13:38:42.737 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+13:38:43.948 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641447524319_192.168.6.1_61490
+13:38:43.948 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Notify connected event to listeners.
+13:38:43.949 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0] Connected,notify listen context...
+13:38:43.949 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:38:43.949 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [cb8b571f-2576-4072-985b-b9fd50ca92bd_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+13:38:43.984 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,56] - limitTime:5.0
+13:38:44.023 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,53] - isMultiInstance:false
+13:38:44.046 [main] INFO  c.x.g.XueYiGatewayApplication - [logStartupProfileInfo,663] - The following profiles are active: dev
+13:38:45.779 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,34] - gateway route init...
+13:38:45.780 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0
+13:38:45.780 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+13:38:45.780 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1779219567
+13:38:45.780 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1729171313
+13:38:45.781 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+13:38:45.781 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+13:38:45.781 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+13:38:45.889 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641447526356_192.168.6.1_61495
+13:38:45.890 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:38:45.890 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Notify connected event to listeners.
+13:38:45.890 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+13:38:45.890 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [c1d298a5-c195-40ff-8a79-11c4c403ee08_config-0] Connected,notify listen context...
+13:38:45.936 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,42] - 获取网关当前配置:[{
+    "id": "xueyi-auth",
+    "order": 2,
+    "predicates": [{
+        "args": {
+            "pattern": "/token/**"
+        },
+        "name": "Path"
+    }],
+    "uri": "lb://xueyi-auth"
+}]
+13:38:45.949 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,45] - update route : RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+13:38:45.949 [main] INFO  c.x.g.s.i.DynamicRouteServiceImpl - [add,103] - gateway add route RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+13:38:46.023 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+13:38:46.029 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+13:38:48.879 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+13:38:48.981 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,63] - initializer namespace from System Property : null
+13:38:48.981 [main] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
+13:38:48.982 [main] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
+13:38:48.994 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 845c8979-0d24-4eab-b6d9-c3134f16e9af
+13:38:48.994 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]RpcClient init label, labels={module=naming, source=sdk}
+13:38:48.996 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+13:38:48.996 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:38:48.996 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:38:48.997 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+13:38:49.104 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641447529571_192.168.6.1_61507
+13:38:49.104 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]Notify connected event to listeners.
+13:38:49.104 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:38:49.104 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+13:38:49.104 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+13:38:50.556 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+13:38:50.730 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] sentinel-xueyi-gateway+DEFAULT_GROUP
+13:38:50.730 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=sentinel-xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+13:38:50.730 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1779219567
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1729171313
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+13:38:50.731 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+13:38:50.865 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641447531306_192.168.6.1_61510
+13:38:50.865 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:38:50.865 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Notify connected event to listeners.
+13:38:50.865 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+13:38:50.865 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [1c57e4a5-2f89-4f98-9029-8519c75da2d1_config-0] Connected,notify listen context...
+13:38:50.896 [main] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+13:38:50.898 [main] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+13:38:51.474 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]receive server push request,request=NotifySubscriberRequest,requestId=136
+13:38:51.474 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+13:38:51.474 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+13:38:51.476 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]ack server push request,request=NotifySubscriberRequest,requestId=136
+13:38:53.915 [main] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 registering service xueyi-gateway with instance Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+13:38:53.920 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP xueyi-gateway 11.9.0.10:8080 register finished
+13:38:53.939 [main] INFO  c.x.g.XueYiGatewayApplication - [logStarted,61] - Started XueYiGatewayApplication in 15.008 seconds (JVM running for 16.329)
+13:38:53.941 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+13:38:53.942 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+13:38:53.942 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+13:38:53.942 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway.properties, group=DEFAULT_GROUP, cnt=1
+13:38:53.942 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway-dev.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+13:38:53.943 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway-dev.properties, group=DEFAULT_GROUP, cnt=1
+13:38:54.488 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]receive server push request,request=NotifySubscriberRequest,requestId=137
+13:38:54.491 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:38:54.491 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:38:54.493 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [845c8979-0d24-4eab-b6d9-c3134f16e9af]ack server push request,request=NotifySubscriberRequest,requestId=137
+13:38:57.905 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:38:57.905 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:01:13.136 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+15:01:13.137 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [deregisterService,136] - [DEREGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 deregistering service xueyi-gateway with instance: Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:01:13.140 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+15:01:13.140 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,256] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+15:01:13.141 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,140] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:01:13.141 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,142] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:01:13.141 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,258] - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+15:01:13.141 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,176] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+15:01:13.141 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,130] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+15:01:13.445 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,132] - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+15:01:13.445 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,188] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+15:01:13.446 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,193] - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+15:01:13.446 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,519] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+15:01:13.446 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,162] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:01:13.447 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,164] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:01:13.448 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialWatcher - [stop,105] - [null] CredentialWatcher is stopped
+15:01:13.448 [SpringApplicationShutdownHook] INFO  c.a.n.c.i.CredentialService - [free,99] - [null] CredentialService is freed
+15:01:13.449 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,523] - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+15:01:13.449 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,461] - Shutdown rpc client ,set status to shutdown
+15:01:13.449 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,463] - Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2748a9d9[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:01:13.452 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,465] - Close current connection 1641447529571_192.168.6.1_61507
+15:01:13.454 [nacos-grpc-client-executor-998] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1641447529571_192.168.6.1_61507]Ignore complete event,isRunning:false,isAbandon=false
+15:01:13.460 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,83] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@69581058[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 999]
+15:01:13.460 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,251] - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@39c78040[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 1647]
+15:01:13.460 [SpringApplicationShutdownHook] INFO  c.a.n.client.naming - [shutdown,182] - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+15:01:27.890 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+15:01:29.645 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+15:01:29.648 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 12623106-9b07-4deb-b0fc-bfebed2bf896_config-0
+15:01:29.711 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 41 ms to scan 1 urls, producing 3 keys and 6 values 
+15:01:29.742 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 4 keys and 9 values 
+15:01:29.756 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+15:01:30.000 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 239 ms to scan 211 urls, producing 0 keys and 0 values 
+15:01:30.010 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+15:01:30.022 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+15:01:30.033 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+15:01:30.241 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 205 ms to scan 211 urls, producing 0 keys and 0 values 
+15:01:30.244 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+15:01:30.245 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1970707120
+15:01:30.245 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1751753651
+15:01:30.246 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+15:01:30.247 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+15:01:30.255 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+15:01:31.916 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641452492277_192.168.6.1_60929
+15:01:31.916 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Notify connected event to listeners.
+15:01:31.917 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0] Connected,notify listen context...
+15:01:31.917 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:31.917 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [12623106-9b07-4deb-b0fc-bfebed2bf896_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+15:01:31.960 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,56] - limitTime:5.0
+15:01:31.974 [main] INFO  c.a.n.c.c.u.JvmUtil - [<clinit>,53] - isMultiInstance:false
+15:01:31.997 [main] INFO  c.x.g.XueYiGatewayApplication - [logStartupProfileInfo,663] - The following profiles are active: dev
+15:01:34.021 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,34] - gateway route init...
+15:01:34.022 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0
+15:01:34.022 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+15:01:34.022 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1970707120
+15:01:34.022 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1751753651
+15:01:34.022 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+15:01:34.023 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+15:01:34.023 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+15:01:34.144 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641452494623_192.168.6.1_60931
+15:01:34.144 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:34.144 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Notify connected event to listeners.
+15:01:34.144 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+15:01:34.144 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [d3c6dad0-32ab-4a59-9eec-e647ef7cc40a_config-0] Connected,notify listen context...
+15:01:34.155 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,42] - 获取网关当前配置:[{
+    "id": "xueyi-auth",
+    "order": 2,
+    "predicates": [{
+        "args": {
+            "pattern": "/token/**"
+        },
+        "name": "Path"
+    }],
+    "uri": "lb://xueyi-auth"
+}]
+15:01:34.166 [main] INFO  c.x.g.l.DynamicRouteServiceImplByNacos - [init,45] - update route : RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+15:01:34.166 [main] INFO  c.x.g.s.i.DynamicRouteServiceImpl - [add,103] - gateway add route RouteDefinition{id='xueyi-auth', predicates=[PredicateDefinition{name='Path', args={pattern=/token/**}}], filters=[], uri=lb://xueyi-auth, order=2, metadata={}}
+15:01:34.238 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+15:01:34.244 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+15:01:37.048 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+15:01:37.186 [main] INFO  c.a.n.client.naming - [initNamespaceForNaming,63] - initializer namespace from System Property : null
+15:01:37.186 [main] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
+15:01:37.187 [main] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
+15:01:37.203 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 6c67cf06-46c8-4de7-b1b1-61bf4a5684a2
+15:01:37.203 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]RpcClient init label, labels={module=naming, source=sdk}
+15:01:37.205 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+15:01:37.206 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:01:37.206 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:01:37.206 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+15:01:37.320 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641452497809_192.168.6.1_60970
+15:01:37.320 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]Notify connected event to listeners.
+15:01:37.320 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
+15:01:37.320 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:37.320 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+15:01:38.741 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+15:01:38.975 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] sentinel-xueyi-gateway+DEFAULT_GROUP
+15:01:38.975 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=sentinel-xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+15:01:38.975 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 36339437-3dff-4c89-b275-3b3e32888193_config-0
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$334/1970707120
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$335/1751753651
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+15:01:38.976 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0] Try to connect to server on start up, server: {serverIp='192.168.6.130', server main port=8848}
+15:01:39.087 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0] Success to connect to server [192.168.6.130:8848] on start up,connectionId=1641452499578_192.168.6.1_60975
+15:01:39.087 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:39.087 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Notify connected event to listeners.
+15:01:39.087 [com.alibaba.nacos.client.Worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [36339437-3dff-4c89-b275-3b3e32888193_config-0]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+15:01:39.087 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.c.i.ClientWorker - [onConnected,681] - [36339437-3dff-4c89-b275-3b3e32888193_config-0] Connected,notify listen context...
+15:01:39.128 [main] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+15:01:39.131 [main] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> []
+15:01:39.692 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]receive server push request,request=NotifySubscriberRequest,requestId=138
+15:01:39.692 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+15:01:39.692 [nacos-grpc-client-executor-4] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@xueyi-gateway -> []
+15:01:39.694 [nacos-grpc-client-executor-4] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]ack server push request,request=NotifySubscriberRequest,requestId=138
+15:01:42.340 [main] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] f14023f1-463c-4fa2-9171-c3f19774cf73 registering service xueyi-gateway with instance Instance{instanceId='null', ip='11.9.0.10', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:01:42.345 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP xueyi-gateway 11.9.0.10:8080 register finished
+15:01:42.366 [main] INFO  c.x.g.XueYiGatewayApplication - [logStarted,61] - Started XueYiGatewayApplication in 16.203 seconds (JVM running for 17.784)
+15:01:42.369 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+15:01:42.369 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway, group=DEFAULT_GROUP, cnt=1
+15:01:42.370 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+15:01:42.370 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway.properties, group=DEFAULT_GROUP, cnt=1
+15:01:42.370 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] xueyi-gateway-dev.properties+DEFAULT_GROUP+f14023f1-463c-4fa2-9171-c3f19774cf73
+15:01:42.370 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=f14023f1-463c-4fa2-9171-c3f19774cf73, dataId=xueyi-gateway-dev.properties, group=DEFAULT_GROUP, cnt=1
+15:01:42.909 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]receive server push request,request=NotifySubscriberRequest,requestId=139
+15:01:42.912 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:01:42.913 [nacos-grpc-client-executor-8] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:01:42.915 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [6c67cf06-46c8-4de7-b1b1-61bf4a5684a2]ack server push request,request=NotifySubscriberRequest,requestId=139
+15:01:46.129 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [isChangedServiceInfo,235] - new ips(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:01:46.129 [com.alibaba.nacos.client.naming.updater.1] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(1) service: DEFAULT_GROUP@@xueyi-gateway@@DEFAULT -> [{"ip":"11.9.0.10","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xueyi-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]

@@ -3,6 +3,8 @@ package com.xueyi.gateway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * 网关启动程序
@@ -10,6 +12,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @author xueyi
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@EnableDiscoveryClient
+@EnableFeignClients
 public class XueYiGatewayApplication {
     public static void main(String[] args) {
         SpringApplication.run(XueYiGatewayApplication.class, args);

@@ -1,0 +1,15 @@
+17:53:35.963 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xueyi.gateway.feign.AuthFeignManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xueyi.gateway.feign.AuthFeignManager' in your configuration.
+
