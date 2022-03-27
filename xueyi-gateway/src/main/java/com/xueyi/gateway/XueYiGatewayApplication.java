@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+import java.util.HashMap;
+
 /**
  * 网关启动程序
  *
@@ -16,6 +18,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class XueYiGatewayApplication {
     public static void main(String[] args) {
+
+        Object hee = new HashMap<>().put(null, "hee");
+
         SpringApplication.run(XueYiGatewayApplication.class, args);
         System.out.println("(♥◠‿◠)ﾉﾞ  网关模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 "  _____     __   ____     __        \n" +
